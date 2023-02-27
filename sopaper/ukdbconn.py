@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # File: ukdbconn.py
 # Date: 二 6月 10 04:01:51 2014 +0000

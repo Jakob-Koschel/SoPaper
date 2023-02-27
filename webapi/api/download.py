@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 # File: download.py
 # Date: 六 6月 14 03:23:41 2014 +0000

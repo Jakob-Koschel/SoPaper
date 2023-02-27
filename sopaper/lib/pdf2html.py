@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 # File: pdf2html.py
 # Date: Mon May 26 15:43:21 2014 +0000

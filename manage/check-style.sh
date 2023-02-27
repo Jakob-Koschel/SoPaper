@@ -7,7 +7,7 @@
 source $script_dir/setenv.sh
 
 pep8=pep8
-type $pep8 2> /dev/null || pep8=pep8-python2		# for archlinux
+type $pep8 2> /dev/null || pep8=pep8-python3		# for archlinux
 
 realpath() {
   [[ $1 = /* ]] && echo "$1" || echo "$PWD/${1#./}"

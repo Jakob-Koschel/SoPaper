@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # $File: test.py
 # $Date: Mon Mar 24 16:23:54 2014 +0800

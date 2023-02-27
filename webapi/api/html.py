@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 # File: html.py
 # Date: Tue May 20 18:01:39 2014 +0800

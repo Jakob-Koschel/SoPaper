@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 # File: downloader.py
 # Date: Fri Jun 02 10:10:59 2017 -0700

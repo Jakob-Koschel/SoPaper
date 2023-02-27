@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # $File: uklogger.py
 # $Date: 一 6月 09 17:20:34 2014 +0000

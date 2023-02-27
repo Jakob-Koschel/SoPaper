@@ -57,11 +57,11 @@ All downloaded paper will be __compressed__ using `ps2pdf` from poppler-utils, i
    -* Python2 with virtualenv. Python headers are needed (python-dev on debian/ubuntu).
    -* ghostscript
    -* libcurl (libcurl4-{openssl,nss,gnutls}-dev on debian/ubuntu)
-   -* xapian (libxapian-dev & python2-xapian on debian/ubuntu)
+   -* xapian (libxapian-dev & python3-xapian on debian/ubuntu)
    -* pdf2htmlEx installed. See its [download guide](https://github.com/coolwanglu/pdf2htmlEX/wiki/Download)
    -* poppler-utils which provide the 'pdftotext' command line util
    -
-   -Note: if you need to run server on debian/ubuntu, make sure you do *not* have 'python2-bson' package installed.
+   -Note: if you need to run server on debian/ubuntu, make sure you do *not* have 'python3-bson' package installed.
 	 -->
 
 ## TODO

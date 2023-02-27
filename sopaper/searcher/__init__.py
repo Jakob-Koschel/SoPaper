@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 # File: __init__.py
 # Author: Yuxin Wu <ppwwyyxxc@gmail.com>

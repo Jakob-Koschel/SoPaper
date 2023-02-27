@@ -37,8 +37,8 @@ do
 done
 export PYTHONPATH=$PYTHONPATH:$project_root
 
-DEBIAN_PYTHON_PATH=/usr/lib/python2.7/dist-packages
-SYS_PYTHON_PATH=/usr/lib/python2.7/site-packages
+DEBIAN_PYTHON_PATH=/usr/lib/python3.7/dist-packages
+SYS_PYTHON_PATH=/usr/lib/python3.7/site-packages
 [[ -d $DEBIAN_PYTHON_PATH ]] && export PYTHONPATH=$PYTHONPATH:$DEBIAN_PYTHON_PATH
 [[ -d $SYS_PYTHON_PATH ]] && export PYTHONPATH=$PYTHONPATH:$SYS_PYTHON_PATH
 

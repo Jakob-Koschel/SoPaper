@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 # File: singleton.py
 # Date: Fri May 23 22:12:27 2014 +0800

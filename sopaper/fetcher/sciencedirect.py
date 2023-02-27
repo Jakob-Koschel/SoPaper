@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 # File: sciencedirect.py
 # Date: 一 6月 09 17:06:26 2014 +0000

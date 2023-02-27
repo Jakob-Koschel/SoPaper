@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 # File: mailserver.py
 # Date: Sun Jun 29 10:05:10 2014 +0800

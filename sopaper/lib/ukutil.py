@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # File: ukutil.py
 # Date: Fri Jun 02 10:18:29 2017 -0700

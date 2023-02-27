@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # $File: __init__.py
 # $Date: Sat May 10 20:33:01 2014 +0800

@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 # File: searcher.py
 # Date: 二 6月 10 04:20:24 2014 +0000

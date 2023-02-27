@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 # File: xpcommon.py
 # Date: Fri May 23 12:35:53 2014 +0800

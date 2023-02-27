@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 # File: ieee.py
 # Date: 五 6月 13 18:22:19 2014 +0000

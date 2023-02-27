@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 # File: job.py
 # Date: Thu Jun 18 23:11:07 2015 +0800

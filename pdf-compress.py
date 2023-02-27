@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 # File: pdf-compress.py
 # Date: Mon Jun 01 01:32:07 2015 +0800

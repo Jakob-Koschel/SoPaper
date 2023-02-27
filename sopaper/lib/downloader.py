@@ -47,7 +47,7 @@ def wget_download(url, progress_updater, headers=None):
     log_info("Download with wget on {0} ...".format(url))
 
     headers = ' '.join(['--header="{0}: {1}"'.format(k, v) for k, v
-                        in headers.iteritems()])
+                        in headers.items()])
     tf = tempfile.NamedTemporaryFile(suffix='.pdf', delete=False)
     tf.close()
     # set timeout and retry number

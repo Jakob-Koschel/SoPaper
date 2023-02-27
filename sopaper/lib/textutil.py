@@ -51,7 +51,7 @@ def levenshtein(s1, s2):
     if len(s2) == 0:
         return len(s1)
 
-    previous_row = xrange(len(s2) + 1)
+    previous_row = range(len(s2) + 1)
     for i, c1 in enumerate(s1):
         current_row = [i + 1]
         for j, c2 in enumerate(s2):
@@ -65,8 +65,8 @@ def levenshtein(s1, s2):
 def title_correct(query, title):
     """ return (match, update) """
     title = title.replace('[PDF]', '')
-    q = ''.join([t for t in query if t in string.letters]).lower()
-    now = ''.join([t for t in title if t in string.letters]).lower()
+    q = ''.join([t for t in query if t in string.ascii_letters]).lower()
+    now = ''.join([t for t in title if t in string.ascii_letters]).lower()
     ed_thres = min(len(query), len(title)) / 5
     ERROR_RATIO = 0.6
     if levenshtein(q, now) < ed_thres:

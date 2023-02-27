@@ -48,7 +48,10 @@ def search(ctx):
     title_updated = None
     for rst in results:
         try:
-            h3 = rst.findAll('h3')[0]
+            h3_list = rst.findAll('h3')
+            if len(h3_list) == 0:
+                continue
+            h3 = h3_list[0]
             real_title = h3.get_text()
             real_title = filter_title_fileformat(real_title)
             tc = title_correct(query, real_title)

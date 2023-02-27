@@ -13,7 +13,7 @@ import tempfile
 import os
 
 def check_buf_pdf(buf):
-    return check_buf_filetype(buf, 'PDF document')
+    return check_buf_filetype(buf, b'PDF document')
 
 def check_legal_pdf(buf):
     def is_exe(path):
@@ -73,9 +73,9 @@ def pdf_compress(data):
         log_err("Compress: ps2pdf14 failed!")
         newdata = None
     else:
-        newdata = open(f2.name).read()
+        newdata = open(f2.name, 'rb').read()
     file_succ = newdata is not None and \
-            check_file_type(f2.name, 'PDF document') and \
+            check_file_type(f2.name, b'PDF document') and \
             len(newdata) >= ukconfig.FILE_SIZE_MINIMUM
     try:
         os.remove(f2.name)

@@ -109,5 +109,5 @@ def md5(s):
     return m.hexdigest()
 
 if __name__ == '__main__':
-    print title_correct("Gated Softmax Classification",
-                        "[PDF]Gated Softmax Classification - NIPS Proceedings")
+    print(title_correct("Gated Softmax Classification",
+                        "[PDF]Gated Softmax Classification - NIPS Proceedings"))

@@ -74,4 +74,4 @@ def check_file_type(fname, need_type):
 
 
 if __name__ == '__main__':
-    print check_filetype(open("./ukconfig.py").read(), 'PDF')
+    print(check_filetype(open("./ukconfig.py").read(), 'PDF'))

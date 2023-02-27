@@ -32,7 +32,7 @@ class ScienceDirect(FetcherBase):
         if pdf:
             try:
                 url = pdf[0]['pdfurl']
-                print url
+                print(url)
             except:
                 # probably something need to be fixed
                 log_exc('')

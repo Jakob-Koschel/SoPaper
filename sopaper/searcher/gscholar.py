@@ -5,17 +5,16 @@
 
 
 from . import register_searcher
-from ..job import SearchResult
-from ..uklogger import *
-from ..lib.textutil import title_correct, filter_title_fileformat, title_beautify
-from ..lib.ukutil import ensure_unicode, ensure_bin_str
-from ..ukconfig import BS_PARSER
+from job import SearchResult
+from uklogger import *
+from lib.textutil import title_correct, filter_title_fileformat, title_beautify
+from lib.ukutil import ensure_unicode, ensure_bin_str
+from ukconfig import BS_PARSER
 
 import re
 import requests
 from bs4 import BeautifulSoup
 import urllib
-from urlparse import urlparse
 import traceback
 
 GOOGLE_SCHOLAR_URL = "https://scholar.google.com/scholar?hl=en&q={0}&btnG=&as_sdt=1%2C5&as_sdtp="

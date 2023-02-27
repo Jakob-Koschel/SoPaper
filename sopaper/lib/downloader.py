@@ -7,16 +7,16 @@
 import sys
 if __name__ == '__main__':
     sys.path.append('../')
-from ..uklogger import *
-from ..lib.textutil import parse_file_size
-from ..lib.exc import FileCorrupted
-from .. import ukconfig
+from uklogger import *
+from lib.textutil import parse_file_size
+from lib.exc import FileCorrupted
+import ukconfig
 
 import urllib
 import os
 import tempfile
 import requests
-from urlparse import urlparse
+from urllib.parse import urlparse
 
 class ProgressPrinter(object):
     def __init__(self):

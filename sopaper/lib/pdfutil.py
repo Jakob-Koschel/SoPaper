@@ -4,10 +4,10 @@
 # Date: Fri Jun 02 10:19:03 2017 -0700
 # Author: Yuxin Wu <ppwwyyxxc@gmail.com>
 
-from ..lib.textutil import filter_nonascii, parse_file_size
-from ..lib.ukutil import check_file_type, check_buf_filetype
-from ..uklogger import *
-from .. import ukconfig
+from lib.textutil import filter_nonascii, parse_file_size
+from lib.ukutil import check_file_type, check_buf_filetype
+from uklogger import *
+import ukconfig
 
 import tempfile
 import os

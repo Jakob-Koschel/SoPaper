@@ -7,10 +7,9 @@
 import re
 from . import register_parser, RecoverableErr
 from .base import FetcherBase, direct_download
-from ..uklogger import *
-from .. import ukconfig
+from uklogger import *
+import ukconfig
 
-from urlparse import urlparse
 import requests
 from bs4 import BeautifulSoup
 

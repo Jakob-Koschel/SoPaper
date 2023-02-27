@@ -5,15 +5,14 @@
 # Author: Yuxin Wu <ppwwyyxxc@gmail.com>
 
 from . import register_searcher
-from ..job import SearchResult
-from ..uklogger import *
-from ..lib.textutil import title_correct, filter_title_fileformat
-from ..ukconfig import BS_PARSER
+from job import SearchResult
+from uklogger import *
+from lib.textutil import title_correct, filter_title_fileformat
+from ukconfig import BS_PARSER
 
 import re
 import urllib
 from bs4 import BeautifulSoup
-from urlparse import urlparse
 import traceback
 import requests
 

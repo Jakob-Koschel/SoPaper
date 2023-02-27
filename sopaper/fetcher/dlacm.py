@@ -7,12 +7,12 @@
 import re
 from . import register_parser, RecoverableErr
 from .base import FetcherBase
-from ..lib.downloader import wget_download
-from ..uklogger import *
-from .. import ukconfig
-from ..ukconfig import BS_PARSER
+from lib.downloader import wget_download
+from uklogger import *
+import ukconfig
+from ukconfig import BS_PARSER
 
-from urlparse import urlparse
+from urllib.parse import urlparse
 import requests
 from bs4 import BeautifulSoup
 

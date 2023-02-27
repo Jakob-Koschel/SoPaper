@@ -15,18 +15,18 @@ import argparse
 from multiprocessing import Pool
 
 # Config must be set at the beginning
-from sopaper import ukconfig
+import ukconfig
 ukconfig.download_method = 'wget'
 ukconfig.USE_DB = False
 ukconfig.LOG_DIR = None
 
-from sopaper import searcher
-from sopaper.searcher import searcher_run
-from sopaper.job import JobContext, SearchResult
-from sopaper import fetcher
-from sopaper.lib.pdfutil import pdf_compress
-from sopaper.lib.textutil import finalize_filename, md5
-from sopaper.uklogger import *
+import searcher
+from searcher import searcher_run
+from job import JobContext, SearchResult
+import fetcher
+from lib.pdfutil import pdf_compress
+from lib.textutil import finalize_filename, md5
+from uklogger import *
 
 def get_args():
     desc = 'SoPaper command line tool -- ' \

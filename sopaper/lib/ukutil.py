@@ -13,8 +13,8 @@ from subprocess import Popen, PIPE
 import tempfile
 import os
 
-from .. import ukconfig
-from ..uklogger import *
+import ukconfig
+from uklogger import *
 
 
 try:

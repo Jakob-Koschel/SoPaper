@@ -5,9 +5,9 @@
 
 from functools import wraps
 
-from ..lib.ukutil import import_all_modules
-from ..uklogger import *
-from ..job import JobContext
+from lib.ukutil import import_all_modules
+from uklogger import *
+from job import JobContext
 
 def searcher_run(searcher, ctx):
     """ a global function to invoke with multiprocessing,

@@ -1,3 +1,8 @@
+## Disclaimer
+
+I've just cloned the original repo and ran it on some directpdf downloads and fixed everything
+that came up to get it working with python3. This is by no means properly tested or maintained.
+
 ## SoPaper, So Easy
 This is a project designed for researchers to conveniently access papers they need.
 

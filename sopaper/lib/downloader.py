@@ -53,7 +53,7 @@ def wget_download(url, progress_updater, headers=None):
     # set timeout and retry number
     cmd = 'wget "{0}" -O "{1}" {2} --timeout=5 -t 3'.format(url, tf.name, headers)
     # TODO: use curl for now
-    cmd = 'curl "{0}" -o "{1}" --connect-timeout 5 --retry 3'.format(url, tf.name, headers)
+    cmd = 'curl "{0}" -o "{1}" --connect-timeout 5 --retry 3 -L'.format(url, tf.name, headers)
     print('cmd: ', cmd)
     ret = os.system(cmd)
     if ret:
